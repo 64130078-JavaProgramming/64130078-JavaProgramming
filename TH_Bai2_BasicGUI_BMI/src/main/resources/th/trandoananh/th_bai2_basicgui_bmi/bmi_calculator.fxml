@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="th.trandoananh.th_bai2_basicgui_bmi.BMICalculatorController">
+   <children>
+      <Label layoutX="80.0" layoutY="57.0" text="Chiều cao (m):">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="105.0" text="Cân nặng (kg): ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtHeight" layoutX="183.0" layoutY="55.0" />
+      <TextField fx:id="txtWeight" layoutX="183.0" layoutY="102.0" />
+      <RadioButton fx:id="rbAsian" layoutX="80.0" layoutY="175.0" mnemonicParsing="false" text="Là người Châu Á">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbNonAsian" layoutX="81.0" layoutY="219.0" mnemonicParsing="false" text="Không phải người Châu Á">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <Button fx:id="btnCalculate" layoutX="118.0" layoutY="335.0" mnemonicParsing="false" onAction="#calculateBMI" prefHeight="59.0" prefWidth="163.0" text="Tính BMI">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="120.0" layoutY="425.0" text="Chỉ số BMI- Đánh giá: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblResult" alignment="CENTER" layoutX="93.0" layoutY="465.0" prefHeight="27.0" prefWidth="213.0" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
