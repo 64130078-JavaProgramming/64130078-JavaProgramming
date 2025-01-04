@@ -7,6 +7,7 @@ Trang giao diện chính
 ![Screenshot 2025-01-04 111822](https://github.com/user-attachments/assets/2e1bcc26-452e-4fb9-8fc9-493a323cc721)
 
 Cửa sổ gọi món
+
 ![Screenshot 2025-01-04 111831](https://github.com/user-attachments/assets/14e02be9-580a-47b8-a146-b80186b71eda)
 
 Giao diện chính sau khi gọi món
